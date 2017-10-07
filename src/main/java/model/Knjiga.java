@@ -14,7 +14,7 @@ public class Knjiga {
 	public static final String POLJE_BROJ_STRANA = "broj_strana";
 	public static final String POLJE_DATUM_IZDAVANJA = "datum_izdavanja";
 
-	private boolean prisutna;
+	public static Boolean prisutna = true;
 
 	@DatabaseField(generatedId = true)
 	private int id;
